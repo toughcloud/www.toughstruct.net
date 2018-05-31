@@ -1,15 +1,15 @@
 echo "www.toughcloud.net" > CNAME
 git add .
 git commit -am "deploy `date +%Y-%m-%d" "%H:%M:%S`"
-git push origin master
+git push origin gh-pages
 
 echo "www.toughstruct.com" > CNAME
 git add .
 git commit -am "deploy `date +%Y-%m-%d" "%H:%M:%S`"
-git push origin tscom
+git push tscom gh-pages
 
 
 echo "www.toughstruct.net" > CNAME
 git add .
 git commit -am "deploy `date +%Y-%m-%d" "%H:%M:%S`"
-git push origin tsnet
+git push tsnet gh-pages
